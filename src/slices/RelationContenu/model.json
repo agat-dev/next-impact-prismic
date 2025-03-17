@@ -1,0 +1,30 @@
+{
+  "id": "relation_contenu",
+  "type": "SharedSlice",
+  "name": "RelationContenu",
+  "description": "RelationContenu",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "test_de_relation": {
+          "type": "Link",
+          "config": {
+            "label": "Test de relation",
+            "select": "document",
+            "repeat": false,
+            "customtypes": [
+              "fiche_documentation"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
