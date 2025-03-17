@@ -10,7 +10,7 @@ export type RelationContenuProps =
   SliceComponentProps<Content.RelationContenuSlice>;
 
 
-export const createClient = (config = {}) => {
+export const createClient = () => {
   const client = prismic.createClient('next-impact', {
   accessToken: 'MC5aOVp0WHhFQUFDRUFsNTRY.77-977-9AU1_77-977-9egYn77-9Jh1NMk7vv70TAO-_vSTvv71L77-9AO-_vVTvv73vv70FfwM',
   });

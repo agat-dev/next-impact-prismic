@@ -2,7 +2,6 @@ import { FC } from "react";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 import { PrismicNextLink } from "@prismicio/next";
-import * as prismic from '@prismicio/client';
 import React from 'react';
 /**
  * Props for `Header`.
